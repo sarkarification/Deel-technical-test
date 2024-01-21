@@ -6,6 +6,10 @@ This project was bootsrapped with create react app typesscript template. This in
 
 In the project directory, you can run:
 
+### `npm install`
+
+This installs dependenciesof the project.
+
 ### `npm start`
 
 Runs the app in the development mode.\
