@@ -1,0 +1,77 @@
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20rem;
+}
+
+.autoFill {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  max-height: 9rem;
+  background-color: inherit;
+  border: 1px solid rgb(117, 117, 119);
+  border-top: 0;
+  overflow-y: auto;
+}
+
+.autoFill a {
+  text-decoration: none;
+  color: rgb(232, 234, 237);
+  padding: 0.5rem 0;
+}
+
+.autoFill a:hover {
+  background-color: rgb(232, 234, 237);
+  color: #171917;
+}
+
+.inputContainer {
+  display: flex;
+  border: 0.3px solid rgb(117, 117, 119);
+  border-radius: 30px;
+  width: 70%;
+  padding: 0.5rem 1rem;
+  justify-content: space-between;
+}
+
+.inputContainer input {
+  background-color: inherit;
+  border: 0;
+  width: 90%;
+  color: #cdcdce;
+}
+
+.inputContainer input:focus {
+  outline: none;
+}
+
+.inputContainer span {
+  color: rgba(232, 234, 237, 0.5);
+}
+
+.clear:hover {
+  cursor: pointer;
+}
+
+.submitBtn {
+  border: 1px solid rgb(117, 117, 119);
+  background-color: inherit;
+  color: inherit;
+  padding: 1rem;
+  margin: 2rem;
+  letter-spacing: 2px;
+}
+
+.submitBtn:hover {
+  background-color: rgb(232, 234, 237);
+  color: #171917;
+}
+
+.submitBtn:focus {
+  background-color: inherit;
+  color: inherit;
+}
